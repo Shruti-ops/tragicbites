@@ -1,2 +1,2 @@
 # tragicbites
-Website for to get Mental health help and self asses mental health severity.
+Website to get Mental health help and self-assess mental health severity.
