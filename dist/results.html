@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results!</title>
+</head>
+<body>
+
+    <div id="result-element">
+        <h2>Results will be displayed here: </h2>
+    </div>
+
+    <script>
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const score = urlParams.get('score');
+
+        const resultElement = document.getElementById('result-element');
+
+        // Update the content of the result element with the score
+        resultElement.innerHTML = `<h2>Your score: ${score}</h2>`;
+
+        console.log(score);
+    </script>
+
+    <script src="quiz.js"></script>
+    
+</body>
+</html>

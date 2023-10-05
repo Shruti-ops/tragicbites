@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'bbg-cyan': 'rgb(66,190,165)',
+        'cyan': 'rgb(66,190,165)',
+        '90vw':'90vw',
     },
   },
   plugins: [],
